@@ -4,13 +4,10 @@
       "exclude": [ "*.{css,scss,js,png,gif,ico,jpg,svg}" ]
     },
     "routes": [
-       {
-        "route": "/secured",
-        "allowedRoles": [
-            "authenticated",
-            "Admin"
-        ]
-    }
-
+        {
+            "route": "/login",
+            "redirect": "/.auth/login/aad"
+          }
+       
     ]
   }
