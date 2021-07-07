@@ -7,6 +7,11 @@
         {
             "route": "/login",
             "redirect": "/.auth/login/aad"
+          },
+          {
+            "route": "/catalog",
+            "redirect": "/products",
+            "statusCode": 301
           }
        
     ]

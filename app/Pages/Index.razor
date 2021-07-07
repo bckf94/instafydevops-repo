@@ -5,3 +5,17 @@
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+
+<h2>Tips</h2>
+<ul style="list-style-type:none;">
+    <li>
+        <p> > Enter <b>/catalog</b> to be redirected to <b>/product</b> </p>
+    </li>
+    <li>
+        <button type="button" @onclick='() => getPage("products")'>Navigate to Products</button>
+    </li>
+    <li>
+        <button type="button" @onclick="onClick">Login</button>
+    </li>
+</ul>
