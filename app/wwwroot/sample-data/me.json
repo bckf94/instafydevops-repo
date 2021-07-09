@@ -1,0 +1,11 @@
+{
+    "clientPrincipal": {
+      "identityProvider": "microsoft",
+      "userId": "test123",
+      "userDetails": "David",
+      "userRoles": [
+        "anonymous",
+        "authenticated"
+      ]
+    }
+  }
